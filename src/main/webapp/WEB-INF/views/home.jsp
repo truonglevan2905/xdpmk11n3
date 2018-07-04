@@ -249,10 +249,10 @@ a
 									</div>
 									<div class="_xkt">
 										
-										<a href="https://www.facebook.com/"><button value="1"
+										<button value="1"
 											class="_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy"
 											id="loginbutton" name="login" tabindex="1" type="submit">Đăng
-											nhập</button></a>
+											nhập</button>
 									</div>
 									<div class="_xkv fsm fwn fcg" id="login_link">
 										<a

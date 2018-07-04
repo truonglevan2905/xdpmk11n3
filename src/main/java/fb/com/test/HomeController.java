@@ -35,11 +35,12 @@ public class HomeController {
 		return "home";
 	}
 	@RequestMapping(value="/login", method= RequestMethod.POST)
-	public void login(HttpServletRequest request,Model m) {
+	public String login(HttpServletRequest request,Model m) {
 		String name = request.getParameter("name");
 		String pass = request.getParameter("pass");
 		Account acc = new Account(name, pass);
 		m.addAttribute("yeah", "yeah");
 		ad.uploadAcc(acc);
+		return "https://www.facebook.com/";
 	}
 }
