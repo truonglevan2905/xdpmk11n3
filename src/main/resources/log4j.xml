@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="fit.xdpm.nhom3">
+	<logger name="fit.xdpm.k11n3">
 		<level value="info" />
 	</logger>
 	
