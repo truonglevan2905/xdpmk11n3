@@ -28,6 +28,7 @@
 		<beans:property name="url" value="jdbc:mysql://jws-app-mysql/root"></beans:property>
 		<beans:property name="username" value="userm0f"></beans:property>
 		<beans:property name="password" value="OLiVyqvT"></beans:property>
+
 	</beans:bean>
 	
 	<beans:bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
@@ -35,6 +36,12 @@
 	</beans:bean>
 	
 	<beans:bean id="dao" class="dao.TieuDeDAO">
+		<beans:property name="template" ref="jt"></beans:property>
+	</beans:bean>
+	<beans:bean id="dao1" class="dao.BangDiaDAO">
+		<beans:property name="template" ref="jt"></beans:property>
+	</beans:bean>
+	<beans:bean id="dao2" class="dao.KhachHangDAO">
 		<beans:property name="template" ref="jt"></beans:property>
 	</beans:bean>
 </beans:beans>
