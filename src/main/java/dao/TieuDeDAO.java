@@ -18,12 +18,12 @@ public class TieuDeDAO {
 	}
 	
 	public List<TieuDe> getAllTieuDe(){
-		String sql="select * from TieuDe";
+		String sql="select * from tieude";
 		return template.query(sql, new BeanPropertyRowMapper(TieuDe.class));
 	}
 	
 	public int insertTieuDe(TieuDe t) {
-		String sql="insert into TieuDe values ('"+t.getMaTieuDe()+"','"+t.getTenTieuDe()+"','"+t.getLoaiDia()+"',N'"+t.getMoTa()+"',"+t.getThoiGianThue()+","+t.getGiaThue()+")";
+		String sql="insert into tieude values ('"+t.getMaTieuDe()+"','"+t.getTenTieuDe()+"','"+t.getLoaiDia()+"',N'"+t.getMoTa()+"',"+t.getThoiGianThue()+","+t.getGiaThue()+")";
 		return template.update(sql);
 	}
 }
