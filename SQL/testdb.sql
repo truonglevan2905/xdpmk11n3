@@ -2,20 +2,17 @@
 -- Wed Jul  4 18:34:08 2018
 -- Model: New Model    Version: 1.0
 -- MySQL Workbench Forward Engineering
+START TRANSACTION;
 
-SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
-SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
-SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
--- -----------------------------------------------------
--- Schema testdb
--- -----------------------------------------------------
 
 -- -----------------------------------------------------
 -- Schema testdb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `testdb` DEFAULT CHARACTER SET utf8 ;
-USE `testdb` ;
+
+-- -----------------------------------------------------
+-- Schema testdb
+-- -----------------------------------------------------
 
 -- -----------------------------------------------------
 -- Table `testdb`.`TieuDe`
@@ -145,7 +142,5 @@ CREATE TABLE IF NOT EXISTS `testdb`.`PhieuDat` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+COMMIT;
 
-SET SQL_MODE=@OLD_SQL_MODE;
-SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
-SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
