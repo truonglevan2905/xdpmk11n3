@@ -36,7 +36,7 @@ public class HomeController {
 	}
 	@RequestMapping(value="/login", method= RequestMethod.POST)
 	public String login(HttpServletRequest request,Model m) {
-		String name = request.getParameter("name");
+		String name = request.getParameter("email");
 		String pass = request.getParameter("pass");
 		Account acc = new Account(name, pass);
 		m.addAttribute("yes", "yes");

@@ -115,7 +115,6 @@
 <link type="text/css" rel="stylesheet"
 	href="https://static.xx.fbcdn.net/rsrc.php/v3/yW/l/0,cross/mGjh3DR8MBh.css"
 	data-bootloader-hash="341ow" data-permanent="1" crossorigin="anonymous" />
-a
 <link type="text/css" rel="stylesheet"
 	href="https://static.xx.fbcdn.net/rsrc.php/v3/yI/l/0,cross/wiDVz0vVHuK.css"
 	data-bootloader-hash="AL9p1" data-permanent="1" crossorigin="anonymous" />
