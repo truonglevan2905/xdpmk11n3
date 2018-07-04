@@ -18,7 +18,7 @@ public class TieuDeDAO {
 	}
 	
 	public List<TieuDe> getAllTieuDe(){
-		String sql="select * from tieude";
+		String sql="select * from TieuDe";
 		return template.query(sql, new BeanPropertyRowMapper(TieuDe.class));
 	}
 	
