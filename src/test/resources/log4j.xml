@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="fit.xdpm.k11n3">
+	<logger name="fb.com.test">
 		<level value="info" />
 	</logger>
 	
