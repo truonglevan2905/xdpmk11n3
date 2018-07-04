@@ -126,7 +126,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `xdpm_k11n3`.`PhieuDat`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `PhieuDat` (
+CREATE TABLE `PhieuDat` (
   `thuTuDat` INT NULL,
   `KhachHang_maKh` VARCHAR(10) NOT NULL,
   `TieuDe_maTieuDe` VARCHAR(10) NOT NULL,
@@ -144,5 +144,5 @@ CREATE TABLE IF NOT EXISTS `PhieuDat` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-
+COMMIT;
 
